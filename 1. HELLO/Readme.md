@@ -1,4 +1,4 @@
-##controller.js
+##public/controller.js
 ```javascript
 function AppCtrl($scope){
 	$scope.greeting = {text: 'hello'};
@@ -10,7 +10,7 @@ function AppCtrl($scope){
 This 'greeting' which is a scope object is now eligible for using in view. "$scope" which maintains relation between controller(controller.js) and view(index.html).As "greeting" is an object with one single property "text", so index.html just view it using {{greeting.text}}. 
 
 
-##index.html
+##public/index.html
 ```html
 <p> {{greeting.html}},word </p>
 ```
